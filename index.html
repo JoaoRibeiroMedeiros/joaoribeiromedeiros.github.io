@@ -25,20 +25,31 @@
             border-radius: 8px;
         }
         h1 {
-            color: #e0e0e0;
+            color: #ff79c6;
         }
         p {
-            color: #cfcfcf;
+            color: #8be9fd;
             line-height: 1.6;
+        }
+        .highlight {
+            color: #50fa7b;
+        }
+        .container:before {
+            content: "";
+            display: block;
+            height: 4px;
+            background: linear-gradient(90deg, #ff79c6, #bd93f9, #8be9fd, #50fa7b);
+            border-radius: 8px 8px 0 0;
+            margin: -20px -20px 20px -20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome!</h1>
-        <p>I'm João, a Senior Data Scientist with a background in Statistical Physics and experience in Data engineering. My passion lies in exploring the fusion of Software, Data and AI to drive innovations that improve human life.</p>
+        <p>I'm <span class="highlight">João</span>, a Senior Data Scientist with a background in Statistical Physics and experience in Data engineering. My passion lies in exploring the fusion of Software, Data and AI to drive innovations that improve human life.</p>
         <p>Over the years, I've held leadership roles in Data and ML/AI, such as Head of AI and Chief Data Officer. I have hands-on experience developing predictive models, anomaly detection systems, and translating complex data science solutions into user-friendly software products. My research in statistical physics has provided me with insights into information dynamics and its practical applications.</p>
-        <p>I thrive on new challenges and enjoy delving into projects that have a real impact. </p>
+        <p>I thrive on new challenges and enjoy delving into projects that have a real impact.</p>
     </div>
 </body>
 </html>
