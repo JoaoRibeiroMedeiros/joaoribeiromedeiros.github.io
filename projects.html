@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — João Ribeiro Medeiros</title>
+  <meta name="description" content="Projects by João Ribeiro Medeiros: RAGenesis, a RAG application over five foundational texts, plus experiments in agents, Langevin dynamics, forecasting and generative media.">
+  <link rel="canonical" href="https://joaoribeiromedeiros.github.io/projects.html">
+  <meta name="theme-color" content="#14151a">
+  <link rel="icon" href="perlin.ico">
+  <link rel="apple-touch-icon" href="perlin.ico">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects — João Ribeiro Medeiros">
+  <meta property="og:description" content="RAGenesis and other open experiments in RAG, agents, stochastic simulation and generative media.">
+  <meta property="og:url" content="https://joaoribeiromedeiros.github.io/projects.html">
+  <meta property="og:image" content="https://joaoribeiromedeiros.github.io/assets/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@RioJanu">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="perlin.ico" alt="" width="28" height="28">João Ribeiro Medeiros</a>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="./">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="research.html">Research</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>Projects</h1>
+        <p>Things I build outside work: one full product, and a set of open experiments where a physics habit meets AI tooling.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="featured-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="featured-h">Featured</h2>
+        </div>
+        <div class="grid">
+          <article class="card featured">
+            <span class="kicker">Live product · 2024</span>
+            <h3><a href="https://ragenesis.com">RAGenesis</a></h3>
+            <p>A retrieval-augmented generation platform centred on the verses of five of the most significant books in history: the Torah, the Bhagavad Gita, the Analects, the New Testament and the Quran. Users explore and compare the texts through semantic search and generation, in what I call a "generative book" compiling the wisdom of many traditions.</p>
+            <p>Beyond the app, RAGenesis proposes a framework for transparency of embedded knowledge bases. It defines Semantic Similarity Networks (SSN), a special case of semantic networks that exposes the graph implicitly created by the choice of embedding model, knowledge base and similarity metric, and derives a chunking methodology from elementary graph theory. Follow-up work measures semantic hypervolume through convex hulls of embeddings and defines intertext similarity and consistency measures between texts.</p>
+            <p>Built solo, end to end, in ten weeks: Streamlit front end, Milvus vector database, all-MiniLM-L6-v2 and jina-clip-v1 embeddings, deployed on AWS (EC2, ECR, CloudFormation/SAM) with Docker and GitHub Actions. Open-sourced under MIT.</p>
+            <div class="links">
+              <a class="btn primary" href="https://ragenesis.com">Open the app</a>
+              <a class="btn" href="https://github.com/JoaoRibeiroMedeiros/RAGenesisOSS">Source on GitHub</a>
+              <a class="btn" href="research.html#writing">Read the articles</a>
+            </div>
+            <div class="foot"><span class="chip">RAG</span><span class="chip">Milvus</span><span class="chip">Streamlit</span><span class="chip">AWS</span><span class="chip">Docker</span><span class="chip">Graph theory</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="experiments-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="experiments-h">Experiments</h2>
+          <a href="https://github.com/JoaoRibeiroMedeiros?tab=repositories">All repositories →</a>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <span class="kicker">Interpretability</span>
+            <h3><a href="https://github.com/JoaoRibeiroMedeiros/LangevinAI">LangevinAI</a></h3>
+            <p>Experiments on how well ML predictors capture Langevin dynamics, using stochastic physics as a probe for AI-driven interpretability.</p>
+            <div class="foot">Python</div>
+          </article>
+          <article class="card">
+            <span class="kicker">Forecasting</span>
+            <h3><a href="https://github.com/JoaoRibeiroMedeiros/political">political</a></h3>
+            <p>Forecasting political outcomes from analysis of politicians' social media activity.</p>
+            <div class="foot">Jupyter</div>
+          </article>
+          <article class="card">
+            <span class="kicker">Agents</span>
+            <h3><a href="https://github.com/JoaoRibeiroMedeiros/AgenticLoveStory">AgenticLoveStory</a></h3>
+            <p>Experiments with LangGraph-orchestrated agents applied to storytelling.</p>
+            <div class="foot">Jupyter · LangGraph</div>
+          </article>
+          <article class="card">
+            <span class="kicker">Simulation</span>
+            <h3><a href="https://github.com/JoaoRibeiroMedeiros/SimulatingApp">SimulatingApp</a></h3>
+            <p>A Streamlit app for simulating stochastic systems interactively.</p>
+            <div class="foot">Python · Streamlit</div>
+          </article>
+          <article class="card">
+            <span class="kicker">Generative media</span>
+            <h3><a href="https://github.com/JoaoRibeiroMedeiros/PsychedelicVideo">PsychedelicVideo</a></h3>
+            <p>AI video generation experiments. The artwork on this site comes from the same generative streak.</p>
+            <div class="foot">JavaScript</div>
+          </article>
+          <article class="card">
+            <span class="kicker">Vibe coding</span>
+            <h3><a href="https://github.com/JoaoRibeiroMedeiros/VehicleDesign">VehicleDesign</a></h3>
+            <p>Vibe-coded exploration of vehicle design under flight conditions.</p>
+            <div class="foot">HTML</div>
+          </article>
+          <article class="card">
+            <span class="kicker">Stochastic physics</span>
+            <h3><a href="https://github.com/JoaoRibeiroMedeiros/SimulationsR">SimulationsR</a></h3>
+            <p>Extensive work simulating Langevin-like systems in R, the computational backbone of my thesis work. See also <a href="https://github.com/JoaoRibeiroMedeiros/RStochasticSimulation">RStochasticSimulation</a>.</p>
+            <div class="foot">R</div>
+          </article>
+          <article class="card">
+            <span class="kicker">Community</span>
+            <h3><a href="https://github.com/JoaoRibeiroMedeiros/AulasProvoc">AulasProvoc</a></h3>
+            <p>Teaching material for mentoring a student in CBPF's Scientific Vocation Programme (PROVOC).</p>
+            <div class="foot">Jupyter · Portuguese</div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 João Ribeiro Medeiros</span>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/jo%C3%A3o-ribeiro-medeiros-ph-d-bb5232170/">LinkedIn</a></li>
+        <li><a href="https://github.com/JoaoRibeiroMedeiros">GitHub</a></li>
+        <li><a href="https://medium.com/@johananmdairus/">Medium</a></li>
+        <li><a href="https://twitter.com/RioJanu">X</a></li>
+        <li><a href="mailto:joao_rmedeiros@yahoo.com.br">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

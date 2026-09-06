@@ -1,82 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="shortcut icon" type="image/x-icon" href="perlin.ico">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>João's Profile</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background: url('psychedelic_background.png') no-repeat center center fixed;
-            background-size: cover;
-            color: #cfcfcf;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .grid-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: auto;
-            gap: 20px;
-            max-width: 80vw;
-            max-height: 80vh;
-        }
-        .box {
-            background: rgba(44, 44, 44, 0.94);
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 8px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center; /* Added to ensure text is horizontally centered */
-        }
-        h1 {
-            color: #ff79c6;
-        }
-        p {
-            color: #6cb2d9;
-            line-height: 1.6;
-        }
-        .highlight {
-            color: #50fa7b;
-        }
-        a {
-            color: #ff79c6;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Ribeiro Medeiros — Senior AI Engineer &amp; Data Scientist</title>
+  <meta name="description" content="João Ribeiro Medeiros, Ph.D. Senior AI engineer and data scientist in Rio de Janeiro. Anomaly detection at scale, RAG and agentic systems, statistical physics.">
+  <link rel="canonical" href="https://joaoribeiromedeiros.github.io/">
+  <meta name="theme-color" content="#14151a">
+  <link rel="icon" href="perlin.ico">
+  <link rel="apple-touch-icon" href="perlin.ico">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="João Ribeiro Medeiros — Senior AI Engineer &amp; Data Scientist">
+  <meta property="og:description" content="Anomaly detection at scale, RAG and agentic systems, statistical physics. PhD from CBPF.">
+  <meta property="og:url" content="https://joaoribeiromedeiros.github.io/">
+  <meta property="og:image" content="https://joaoribeiromedeiros.github.io/assets/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@RioJanu">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "João Ribeiro Medeiros",
+    "honorificSuffix": "Ph.D.",
+    "jobTitle": "Senior AI Innovation Specialist - Software Engineering",
+    "worksFor": { "@type": "Organization", "name": "IgniteTech" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Centro Brasileiro de Pesquisas Físicas (CBPF)" },
+      { "@type": "CollegeOrUniversity", "name": "Pontifícia Universidade Católica do Rio de Janeiro" }
+    ],
+    "address": { "@type": "PostalAddress", "addressLocality": "Rio de Janeiro", "addressCountry": "BR" },
+    "url": "https://joaoribeiromedeiros.github.io/",
+    "sameAs": [
+      "https://www.linkedin.com/in/jo%C3%A3o-ribeiro-medeiros-ph-d-bb5232170/",
+      "https://github.com/JoaoRibeiroMedeiros",
+      "https://medium.com/@johananmdairus",
+      "https://twitter.com/RioJanu",
+      "https://ragenesis.com"
+    ]
+  }
+  </script>
 </head>
 <body>
-    <div class="grid-container">
-        <div class="box"><h1>Welcome!</h1></div>
-        <div class="box"><p>I'm <span class="highlight">João Ribeiro Medeiros</span>, a Senior Data Scientist and AI specialist with a PhD in Statistical Physics and experience in Data Engineering.</p></div>
-        <div class="box"><p>My passion lies in exploring the fusion of Software, Data and AI to drive innovations that improve human life.</p></div>
-        <div class="box"><p>I've held leadership roles in Data and ML/AI, such as Head of AI, Chief Data Officer and Lead Data Scientist.</p></div>
-        <div class="box"><p>I have hands-on experience translating complex data science solutions into user-friendly software products, having deployed ML driven software for diverse areas such as Heavy Industry, Oil and Gas, Advertising, Marketing and Behavioural Research.</p></div>
-        <div class="box"><p>My work in statistical physics has provided me with depth and insights into information dynamics and its practical applications.</p></div>
-        <div class="box"><p>I thrive on new challenges and love delving into projects that have a real impact. </p></div>
-        <div class="box">
-            <p>See my pages:</p>
-            <p>
-                <span style="margin: 0 10px;">|</span>
-                <a href="https://www.linkedin.com/in/jo%C3%A3o-ribeiro-medeiros-ph-d-bb5232170/">LinkedIn</a>
-                <span style="margin: 0 10px;">|</span>
-                <a href="https://github.com/JoaoRibeiroMedeiros">GitHub</a>
-                <span style="margin: 0 10px;">|</span>
-                <a href="https://medium.com/@johananmdairus/">Medium</a>
-                <span style="margin: 0 10px;">|</span>
-                <a href="https://ragenesis.com">RAGenesis</a>
-                <span style="margin: 0 10px;">|</span>
-                <a href="https://twitter.com/RioJanu">Twitter</a>
-                <!-- <span style="margin: 0 10px;">|</span>
-                <a href="https://joaormedeiros.blogspot.com/">Poems</a> -->
-            </p>
-        </div>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="perlin.ico" alt="" width="28" height="28">João Ribeiro Medeiros</a>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="./" aria-current="page">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="research.html">Research</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="name">
+      <div class="wrap">
+        <div>
+          <p class="eyebrow">Rio de Janeiro, Brazil</p>
+          <h1 id="name">João Ribeiro Medeiros, Ph.D.</h1>
+          <p class="headline">Senior AI Engineer · Data Scientist · Machine Learning · LLMs</p>
+          <p class="meta">Building AI systems that detect anomalies at scale, make legacy platforms smarter, and turn organizational knowledge into a compounding asset.</p>
+          <div class="cta">
+            <a class="btn primary" href="experience.html">See my experience</a>
+            <a class="btn" href="projects.html">Projects</a>
+            <a class="btn" href="https://www.linkedin.com/in/jo%C3%A3o-ribeiro-medeiros-ph-d-bb5232170/">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="about">
+      <div class="wrap">
+        <h2 id="about">About</h2>
+        <p class="lede">I'm a senior AI engineer and data scientist with a background in statistical physics and hands-on experience in data engineering. My passion lies in exploring the fusion of software, data and AI to drive innovations that improve human life.</p>
+        <p>I've held leadership roles in data and ML/AI, including Head of AI, Chief Data Officer and Lead Data Scientist, and I have a track record of translating complex data science into user-friendly software products. I've deployed ML-driven software in heavy industry, oil and gas, advertising, marketing and behavioural research.</p>
+        <p>I hold a PhD in statistical physics from CBPF, where I investigated fluctuation relations, thermostatistics and turbulent time series, with applications in biology and finance. That work gave me depth in information dynamics and a taste for problems where theory has to meet real data.</p>
+        <p>I am a believer in the power of creativity to reshape technology, culture, politics and problem solving.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="highlights">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="highlights">Highlights</h2>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <span class="kicker">Now</span>
+            <h3><a href="experience.html">Anomaly detection at enterprise scale</a></h3>
+            <p>At IgniteTech I lead an end-to-end platform that monitors enterprise appliances in real time: supervised and unsupervised ML pipelines feeding agentic systems on distributed AWS architecture, with a cross-functional team from sprint planning to production.</p>
+            <div class="foot"><span class="chip">ML pipelines</span><span class="chip">Agentic AI</span><span class="chip">AWS</span></div>
+          </article>
+          <article class="card">
+            <span class="kicker">Side project</span>
+            <h3><a href="projects.html">RAGenesis</a></h3>
+            <p>A retrieval-augmented generation app over five foundational texts, built solo in ten weeks. It introduces Semantic Similarity Networks as a way to make the graph underneath a RAG engine transparent.</p>
+            <div class="foot"><span class="chip">RAG</span><span class="chip">Milvus</span><span class="chip">Streamlit</span></div>
+          </article>
+          <article class="card">
+            <span class="kicker">Research</span>
+            <h3><a href="research.html">Effective temperatures in athermal systems</a></h3>
+            <p>PhD in physics from CBPF on non-equilibrium thermodynamics and statistical mechanics, with three peer-reviewed papers on thermostatistics under exotic reservoirs.</p>
+            <div class="foot"><span class="chip">Phys. Rev. E</span><span class="chip">J. Stat. Mech.</span><span class="chip">Physica A</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="skills">
+      <div class="wrap">
+        <h2 id="skills">What I work with</h2>
+        <ul class="chips">
+          <li>AI engineering</li><li>Retrieval-augmented generation</li><li>LLM integration</li><li>Agentic systems</li><li>Model Context Protocol</li><li>Anomaly detection</li><li>Production MLOps</li><li>Distributed ML systems</li><li>Python</li><li>AWS (Lambda, CloudFormation, EC2)</li><li>Data engineering</li><li>Causal inference</li><li>Engineering management</li><li>Product design</li><li>Statistical physics</li><li>Knowledge management</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span id="year">2026</span> João Ribeiro Medeiros</span>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/jo%C3%A3o-ribeiro-medeiros-ph-d-bb5232170/">LinkedIn</a></li>
+        <li><a href="https://github.com/JoaoRibeiroMedeiros">GitHub</a></li>
+        <li><a href="https://medium.com/@johananmdairus/">Medium</a></li>
+        <li><a href="https://twitter.com/RioJanu">X</a></li>
+        <li><a href="mailto:joao_rmedeiros@yahoo.com.br">Email</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
