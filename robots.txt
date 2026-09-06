@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://joaoribeiromedeiros.github.io/sitemap.xml
