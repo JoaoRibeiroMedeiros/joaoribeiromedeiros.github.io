@@ -62,7 +62,7 @@
 \bg{cvgreen}{white}{About me}\\[0.5em]
 
 {\footnotesize
-I'm João Ribeiro Medeiros, Tech lead, Senior AI Engineer and Data Scientist with a background in Statistical Physics and experience in Data Engineering. I build AI systems that detect anomalies at scale, make legacy platforms smarter through LLMs, and turn organizational knowledge into a compounding asset.
+I'm João Ribeiro Medeiros, Tech lead, Senior AI Engineer and Data Scientist with a background in Statistical Physics and expertise in Data Engineering. I build AI systems that detect anomalies at scale, make legacy platforms smarter through LLMs, and turn organizational knowledge into a compounding asset.
 \bigskip
 
 \bg{cvgreen}{white}{personal} \\[0.5em]

@@ -4,3 +4,4 @@ assets/*.txt
 assets/radar-checkins-*.md
 *.aux
 *.out
+applications/
