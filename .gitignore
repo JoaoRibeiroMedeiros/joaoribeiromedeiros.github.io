@@ -1,0 +1,6 @@
+.DS_Store
+assets/*.log*
+assets/*.txt
+assets/radar-checkins-*.md
+*.aux
+*.out
